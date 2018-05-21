@@ -1,0 +1,25 @@
+form {
+  margin-bottom: 40px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 24px;
+}
+
+input[type="submit"] {
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 20px;
+  background: #f36363;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input:focus {
+  outline: none;
+}

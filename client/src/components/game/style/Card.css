@@ -1,0 +1,65 @@
+.card {
+  width: 120px;
+  height: 80px;
+  line-height: 80px;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+  background: #E8E8E8;
+}
+
+.neutral.revealed {
+  background: #f4b342;
+}
+
+.red.revealed {
+  background: #D13030;
+  color: #FFF;
+}
+.blue.revealed {
+  background: #4183CC;
+  color: #FFF;
+}
+
+.black.revealed {
+  background: #000000;
+  color: #FFF;
+}
+
+.hidden {
+  cursor: pointer;
+}
+
+.red.spymaster{
+  color: #D13030;
+}
+
+.blue.spymaster {
+  color: #4183CC
+}
+
+.neutral.spymaster {
+  color: #f4b342;
+}
+
+
+.neutral.revealed.spymaster {
+  background: #f4b342;
+  color: #FFF;
+}
+
+.red.revealed.spymaster{
+  background: #D13030;
+  color: #FFF;
+}
+
+.blue.revealed.spymaster {
+  background: #4183CC;
+  color: #FFF;
+}
+
+.black.revealed.spymaster {
+  background: #000000;
+  color: #FFF;
+}
